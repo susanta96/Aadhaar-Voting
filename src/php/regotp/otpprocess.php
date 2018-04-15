@@ -1,5 +1,9 @@
 <?php
 session_start();
+if(!isset($_SESSION['aadhaar']))
+{
+  header('location:../../../register.php?msg=please_register');
+}
 $rno=$_SESSION['otp'];
 $urno=$_POST['otpvalue'];
 if(!strcmp($rno,$urno))

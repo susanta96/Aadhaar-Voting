@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <?php
 session_start();
+if(!isset($_SESSION['aadhaar']))
+{
+  header('location:login.php?msg=please_login');
+}
 ?>
 <html>
 

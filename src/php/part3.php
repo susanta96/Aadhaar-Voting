@@ -3,6 +3,10 @@
 include_once('connect.php');
 // include_once('store.php');
 session_start();
+if(!isset($_SESSION['aadhaar']))
+{
+  header('location:../../login.php?msg=please_login');
+}
 $aadhaar=$_SESSION["aadhaar"];
 
 

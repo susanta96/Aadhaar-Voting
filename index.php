@@ -36,7 +36,7 @@ session_start();
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="navbar navbar-default">
-                            <!-- Brand and toggle get grouped for better mobile display -->
+
                             <div class="head-navbar-toggle toggle-act visible-sm visible-xs">
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -65,9 +65,7 @@ session_start();
                                     <a href="register.php" class="btn-round btn-border btn-gradient">Register</a>
                                 </div>
                             </div>
-                            <!--<a href="javascript:void(0)" class="head-navbar-user visible-sm visible-xs">
-                                <img src="src/images/icon-user.png" alt="user" />
-                            </a>-->
+
                             <div class="navbar-mobile">
                                 <div class="side-menu">
                                     <div class="navbar">
@@ -92,11 +90,11 @@ session_start();
                                         </ul>
                                         <ul class="navbar-link list-unstyled">
                                             <li>
-                                                 <a href="login.html" target="_blank" class="btn-round btn-border btn-gradient">Login</a>
+                                                 <a href="login.php" target="_blank" class="btn-round btn-border btn-gradient">Login</a>
 
                                             </li>
                                             <li>
-                                                 <a href="register.html" target="_blank" class="btn-round btn-border btn-gradient">Register</a>
+                                                 <a href="register.php" target="_blank" class="btn-round btn-border btn-gradient">Register</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -187,8 +185,8 @@ And,as we have said earlier-"Technology is affecting human life to a great exten
                                     </div>
                                     <div class="col-md-12 col-xs-9">
                                         <div class="title">Avik Majumder</div>
-                                        <a  href="https://www.facebook.com/ripan.seal.7"><i class="fa fa-facebook-square" style="font-size:30px;color:white"></i></a>
-                            			<a  href="https://www.instagram.com/i.am.avik/"> <i class="fa fa-instagram" aria-hidden="true" style="font-size:30px;color:white"></i></a>
+                                        <a  href="https://github.com/rahulavik"><i class="fa fa-github-square" style="font-size:30px;color:white"></i></a>
+                                        <a  href="https://www.instagram.com/i.am.avik/"> <i class="fa fa-instagram" aria-hidden="true" style="font-size:30px;color:white"></i></a>
 
                                     </div>
                                 </div>
@@ -300,7 +298,7 @@ And,as we have said earlier-"Technology is affecting human life to a great exten
     <script type="text/javascript" src="src/js/wow.min.js"></script>
     <script type="text/javascript" src="src/js/SmoothScroll.js"></script>
 
-    
+
 </body>
 
 

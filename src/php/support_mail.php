@@ -1,5 +1,9 @@
 <?php
 session_start();
+if(!isset($_SESSION['aadhaar']))
+{
+  header('location:../../index.php');
+}
 // $rndno=rand(100000, 999999);//OTP generate
 $message = urlencode("otp number.".$rndno);
 $to=$_POST['email'];

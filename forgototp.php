@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <?php
 session_start();
+if(!isset($_SESSION['aadhaar']))
+{
+  header('location:aadhaar.php?msg=please_provide_aadhaar');
+}
 ?>
 <html>
 <head>

@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <?php
 session_start();
+if(!isset($_SESSION['aadhaar']))
+{
+  header('location:login.php?msg=please_login');
+}
+unset($_SESSION['aadhaar']);
+unset($_SESSION['name']);
+unset($_SESSION['phn']);
+unset($_SESSION['email']);
+// destroy the session
+session_destroy();
 ?>
 <html>
 <head>

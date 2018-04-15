@@ -1,5 +1,9 @@
 <?php
 session_start();
+if(!isset($_SESSION['aadhaar']))
+{
+  header('location:../../login.php?msg=please_login');
+}
 include_once('connect.php');
 
 $check="SELECT a_id FROM data WHERE a_id = '$_SESSION[aadhaar]'";
@@ -18,7 +22,7 @@ if($data[0] > 1)
     }
 
     else
-    {    
+    {
 
           header('location:logotp/process.php');
     }

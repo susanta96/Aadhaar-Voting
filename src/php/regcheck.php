@@ -1,6 +1,10 @@
 <?php
 session_start();
 include_once('connect.php');
+if(!isset($_SESSION['aadhaar']))
+{
+  header('location:../../register.php?msg=please_register');
+}
 
 
 $check="SELECT a_id FROM data WHERE a_id = '$_POST[aadhaar]'";

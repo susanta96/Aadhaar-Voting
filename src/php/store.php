@@ -2,6 +2,12 @@
 
 include_once('connect.php');
 session_start();
+
+if(!isset($_SESSION['aadhaar']))
+{
+  header('location:../../register.php?msg=please_register');
+}
+
 //$name=$_POST['name'];
 $aadhaar=$_SESSION['aadhaar'];
 $name=$_SESSION['name'];
@@ -24,8 +30,15 @@ if (!mysqli_query($conn,$query2))
     echo("Error description: " . mysqli_error($conn));
 }
 else{
-
-    header('location:../../login.php');
+  unset($_SESSION['aadhaar']);
+  unset($_SESSION['name']);
+  unset($_SESSION['phn']);
+  unset($_SESSION['email']);
+  unset($_SESSION['dob']);
+  unset($_SESSION['pass']);
+  // destroy the session
+  session_destroy();
+  header('location:../../login.php');
 }
 
 ?>

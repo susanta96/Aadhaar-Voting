@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <?php
 session_start();
+if(!isset($_SESSION['aadhaar']))
+{
+  header('location:register.php?msg=please_register_first');
+}
 ?>
 <html>
 <head>
