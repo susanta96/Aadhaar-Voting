@@ -111,14 +111,12 @@ session_start();
 
     <!--END-POP-->
 
-	<script type="text/javascript" src="src/js/bootstrap.min.js"></script>
+	  <script type="text/javascript" src="src/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="src/js/app.js"></script>
     <script type="text/javascript" src="src/js/wow.min.js"></script>
     <script type="text/javascript" src="src/js/SmoothScroll.js"></script>
-
-  <!-- <script type="text/javascript" src="src/js/jquery-ui.js"></script> -->
-  <script type="text/javascript" src="src/js/jquery.min.js"></script>
-
+    <!-- <script type="text/javascript" src="src/js/jquery-ui.js"></script> -->
+    <script type="text/javascript" src="src/js/jquery.min.js"></script>
     <script type="text/javascript" src="src/js/jquery-ui.min.js"></script>
 
 
@@ -171,17 +169,17 @@ session_start();
 
 
               if( user == "" ){
-                document.getElementById('usernameid').innerHTML = " Please Enter Your Name ";
+                document.getElementById('usernameid').innerHTML = "Please Enter Your Name ";
                 // alert("Please Enter Your Name");
                 return false;
               }
               if(( user.length < 3) || (user.length > 20)){
-                document.getElementById('usernameid').innerHTML = " Please fill the Name between 3 and 20";
+                document.getElementById('usernameid').innerHTML = "Please fill the Name between 3 and 20";
                 return false;
               }
 
               if(!isNaN(user)){
-                document.getElementById('usernameid').innerHTML = " Please Enter characters";
+                document.getElementById('usernameid').innerHTML = "Please Enter characters";
                 return false;
               }
 
@@ -193,7 +191,7 @@ session_start();
 
 
               if(email.indexOf('@') <= 0){
-                document.getElementById('emailids').innerHTML = " please fill the email id in proper format @ ";
+                document.getElementById('emailids').innerHTML = "please fill the email id in proper format @ ";
                 return false;
               }
 
@@ -201,7 +199,7 @@ session_start();
 
               if((email.charAt(email.length-4)!='.') && (email.charAt(email.length-3)!='.')){
 
-                document.getElementById('emailid').innerHTML = " please fill the email id in proper format . ";
+                document.getElementById('emailid').innerHTML = "Please fill the email id in proper format . ";
                 return false;
               }
 
@@ -211,14 +209,13 @@ session_start();
               }
 
               if(aadhaarnumber.length!=12){
-                document.getElementById('aadhaarno').innerHTML = " Addhaar number should be 12 digits ";
+                document.getElementById('aadhaarno').innerHTML = "Addhaar number should be 12 digits ";
                 return false;
               }
               if(isNaN(aadhaarnumber)){
-                document.getElementById('aadhaarno').innerHTML = " Addhaar number should conatins only digits ";
+                document.getElementById('aadhaarno').innerHTML = "Addhaar number should conatins only digits ";
                 return false;
               }
-
 
 
 
@@ -228,34 +225,34 @@ session_start();
               }
 
               if(mobileno.length!=10){
-                document.getElementById('mobilenumber').innerHTML = " number should be 10 digits ";
+                document.getElementById('mobilenumber').innerHTML = "Number should be 10 digits ";
                 return false;
               }
               if(isNaN(mobileno)){
-                document.getElementById('mobilenumber').innerHTML = " number should conatins only digits ";
+                document.getElementById('mobilenumber').innerHTML = "Number should conatins only digits ";
                 return false;
               }
 
 
               if( password == "" ){
-                document.getElementById('passwords').innerHTML = " please fill the password ";
+                document.getElementById('passwords').innerHTML = "Please fill the password";
                 return false;
               }
 
               if((password.length < 8) || (password.length > 20)){
-                document.getElementById('passwords').innerHTML = " Please fill the password between 8 and 20";
+                document.getElementById('passwords').innerHTML = "Please fill the password between 8 and 20";
                 return false;
               }
 
               if( password!=confirmpassword){
-                document.getElementById('confirmpassword').innerHTML = " Password are not matching";
+                document.getElementById('confirmpassword').innerHTML = "Password are not matching";
                 return false;
               }
 
 
 
               if( confirmpassword == "" ){
-                document.getElementById('confirmpassword').innerHTML = "  Please fill the confrm paasword ";
+                document.getElementById('confirmpassword').innerHTML = "Please fill the confrm paasword ";
                 return false;
               }
 
@@ -266,13 +263,5 @@ session_start();
           </script>
 
 </body>
-
-
-
-
-
-
-
-
 
 </html>

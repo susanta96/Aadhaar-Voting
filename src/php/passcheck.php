@@ -1,9 +1,6 @@
 <?php
 session_start();
-if(!isset($_SESSION['aadhaar']))
-{
-  header('location:../../login.php?msg=please_login');
-}
+
 
 include_once('connect.php');
 
@@ -16,6 +13,11 @@ $_SESSION['phn'] = $data['phn_no'];
 $_SESSION['email'] = $data['mail_id'];
 $_SESSION['name'] = $data['name'];
 $_SESSION['aadhaar']= $_POST['aadhaar'];
+
+if(!isset($_SESSION['aadhaar']))
+{
+  header('location:../../login.php?msg=please_login');
+}
 
 
 $hash = $data['pass'];

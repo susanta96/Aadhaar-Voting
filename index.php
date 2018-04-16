@@ -133,9 +133,11 @@ session_start();
                     </div>
                 </div>
             </div>
-            <video muted loop playsinline class="banner_video">
-                <source  type="video/mp4">
-            </video>
+
+            <div class="banner_video" style="background:url(src/images/banner_bg.jpg) no-repeat center center ;">
+              
+            </div>
+
         </div>
     </div>
 
