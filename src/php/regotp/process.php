@@ -5,7 +5,7 @@ if(!isset($_SESSION['aadhaar']))
   header('location:../../../register.php?msg=please_register');
 }
 //Your authentication key
-$authKey = "203967AeTx7eKlT5aadf187";
+$authKey = "210494AjY3MdVoXsq5ad5edb2";
 //Multiple mobiles numbers separated by comma
 $mobileNumber = $_SESSION['phn'];
 //Sender ID,While using route4 sender id should be 6 characters long.

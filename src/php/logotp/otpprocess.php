@@ -16,7 +16,7 @@ $phone=$_SESSION['phn'];
 // VALUES ('$name', '$email', '$phone')";
 // if (mysqli_query($conn, $sql))
  {
-$authKey = "203967AeTx7eKlT5aadf187";
+$authKey = "210494AjY3MdVoXsq5ad5edb2";
 $mobileNumber = $phone;
 //Sender ID,While using route4 sender id should be 6 characters long.
 $senderId = "ABCDEF";
