@@ -154,13 +154,8 @@ session_start();
                     </div>
 
                     <div class="col-md-6 col-xs-12 wow zoomIn" data-wow-delay="0.5s" id="scroll-section2">
-                        <h2>
-                            About Project
-                          </h2>
-				<p>Our project is about,Adhaar Voting System.To describe the project,or to explain the key motto of making this website,or why did we thought of making this,we should enlighten all,about the disadvantages of Normal Voting System.Voting,is a important thing in our daily day life,be it choosing our Leaders who would run our country or state according to the Laws,or be it choosing our Cricket Team captain,or anything which cannot be decided by a single person,and has to be decided according to the opinion of many,Voting is the only way out.Now,let's take a look,at the disadvantages pf Normal Voting,first of all,as technology is affecting human life to great extent,and it's increasing day by day,people are becoming dependent on it,they would prefer Voting through their smart-phones,or computers or any other gadgets that can be used to access the website,rather than standing in long queues.Secondly,political parties often take the help of local goons,to disturb people,and doesn't allow people to cast their vote,in choice of them,and forcefully cast the votes,in favor of the parties,who have hired them,Adhaar Voting,will provide people enough security,to cast their votes in favor of their choices.People,will no longer feel unsafe,while casting their votes,because their accounts will be connected through their,Adhaar Cards,and each have a authenticating number in their cards,each people can cast their vote,in their way.There is one more advantage in our project,it will verify accounts with OTP,once you login to your account,or you have done casting your votes,it will automatically send you a OTP,in your mobile number.As,in this website,account has to be created,it also requires password authentication,so,it's secure,simple and also saves your valuable time.
-And,as we have said earlier-"Technology is affecting human life to a great extent."So,why don't we use technology in voting as well.
-"TECHNOLOGY USE KAREGA INDIA,TABHI TOH BAREGA INDIA."
-</p>
+                        <h2> About Project</h2>
+				<p>Our project is about, online Aadhaar Voting System.To describe the project,or to explain the key motto of making this system,we should enlighten all,about the disadvantages of Existing Voting System.Voting,is a important part in any republic country,so choosing our Leaders who would run our country or state according to the Laws.Now,let's take a look,at the disadvantages existing Normal Voting,first of all,as technology is affecting human life to great extent,and it's increasing day by day,people are becoming dependent on it,they would prefer Voting through their smart-phones,or computers or any other gadgets that can be used to access the website,rather than standing in long queues.Secondly,political parties often take the help of local goons,to disturb people,and doesn't allow people to cast their vote,in choice of them,and forcefully cast the votes,in favor of the parties,who have hired them,Adhaar Voting,will provide people enough security,to cast their votes in favor of their choices.People,will no longer feel unsafe,while casting their votes,because their accounts will be connected through their,Adhaar Cards,and each have a authenticating number in their cards,each people can cast their vote,in their way.There is one more advantage in our project,it will verify accounts with OTP,once you login to your account,or you have done casting your votes,it will automatically send you a OTP,in your mobile number.As,in this website,account has to be created,it also requires password authentication,so,it's secure,simple and also saves your valuable time.</p>
 
                     </div>
                 </div>
@@ -182,13 +177,14 @@ And,as we have said earlier-"Technology is affecting human life to a great exten
                                 <div class="row">
                                     <div class="col-md-12 col-xs-3 text-center">
                                         <div class="icon">
-                                            <img src="src/images/user3.jpeg" class="img-responsive img-circle" alt="" />
+                                            <img src="src/images/user3.jpg" class="img-responsive img-circle" alt="" />
                                         </div>
                                     </div>
                                     <div class="col-md-12 col-xs-9">
-                                        <div class="title">Avik Majumder</div>
-                                        <a  href="https://github.com/rahulavik"><i class="fa fa-github-square" style="font-size:30px;color:white"></i></a>
-                                        <a  href="https://www.instagram.com/i.am.avik/"> <i class="fa fa-instagram" aria-hidden="true" style="font-size:30px;color:white"></i></a>
+                                        <div class="title">Susanta Chakraborty</div>
+                                        <a  href="https://github.com/susanta96"><i class="fa fa-github-square" style="font-size:30px;color:white"></i></a>
+                                        <a  href="https://www.facebook.com/SusantatheBOSS/"> <i class="fa fa-facebook-square" aria-hidden="true" style="font-size:30px;color:white"></i></a>
+                                        <a  href="https://www.instagram.com/susanta_boss/"> <i class="fa fa-instagram" aria-hidden="true" style="font-size:30px;color:white"></i></a>
 
                                     </div>
                                 </div>
@@ -204,9 +200,10 @@ And,as we have said earlier-"Technology is affecting human life to a great exten
                                         </div>
                                     </div>
                                     <div class="col-md-12 col-xs-9">
-                                        <div class="title">Ripan Seal</div>
-                                        <a  href="https://www.facebook.com/ripan.seal.7"><i class="fa fa-facebook-square" style="font-size:30px;color:white"></i></a>
-                            			<a  href="https://www.instagram.com/ripanforever/"> <i class="fa fa-instagram" aria-hidden="true" style="font-size:30px;color:white"></i></a>
+                                        <div class="title">Ayon Das</div>
+                                        <a  href="https://www.github.com/AyonAB"><i class="fa fa-github-square" style="font-size:30px;color:white"></i></a>
+                                        <a  href="https://www.facebook.com/ayan.loves.alterbridge/"> <i class="fa fa-facebook-square" aria-hidden="true" style="font-size:30px;color:white"></i></a>
+                                        <a  href="https://www.instagram.com/ayantipu/"> <i class="fa fa-instagram" aria-hidden="true" style="font-size:30px;color:white"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -220,9 +217,9 @@ And,as we have said earlier-"Technology is affecting human life to a great exten
                                         </div>
                                     </div>
                                     <div class="col-md-12 col-xs-9">
-                                        <div class="title">Arijit Paul</div>
-                                <a href="https://www.facebook.com/iamarijitp"><i class="fa fa-facebook-square" style="font-size:30px;color:white"></i></a>
-                              <a  href="https://www.instagram.com/iamarijitp/"> <i class="fa fa-instagram" aria-hidden="true" style="font-size:30px;color:white"></i></a>
+                                        <div class="title">Sayani Chakraborty</div>
+                                <a href="https://www.facebook.com/cutypie.barsha.1"><i class="fa fa-facebook-square" style="font-size:30px;color:white"></i></a>
+                              <a  href="https://www.instagram.com/kitty_bloom_sayani/"> <i class="fa fa-instagram" aria-hidden="true" style="font-size:30px;color:white"></i></a>
 
                                   </div>
 
@@ -258,8 +255,8 @@ And,as we have said earlier-"Technology is affecting human life to a great exten
                             <div class="row">
                                 <div class="col-md-6 col-xs-12">
                                     <div class="contact-address">
-										<p>Email : support@domain.com</p>
-										<p>PH : 918481094570</p>
+										<p>Email : help@aadhaarvote.com</p>
+										<p>PH : +918240161374</p>
 									</div>
                                 </div>
 								<div class="col-md-6 col-xs-12">
